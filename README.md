@@ -22,6 +22,13 @@ Retorna status da aplicação.
 ### `POST /analyze-package-image`
 Recebe uma imagem no campo multipart `image` e devolve um diagnóstico em JSON.
 
+Exemplo de `curl`:
+
+```bash
+curl -X POST http://localhost:8080/analyze-package-image \
+  -F "image=@/caminho/para/sua-imagem.jpg"
+```
+
 Exemplo de resposta:
 
 ```json
