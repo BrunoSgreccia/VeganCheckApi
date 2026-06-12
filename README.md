@@ -11,8 +11,9 @@ API em Node.js para analisar imagens de embalagens e indicar se o produto é seg
 
 1. Copie `.env.example` para `.env`
 2. Preencha `GROQ_API_KEY`
-3. Instale as dependências com `npm install`
-4. Inicie a API com `npm run dev`
+3. Se quiser usar outro modelo, ajuste `GROQ_MODEL` no `.env`
+4. Instale as dependências com `npm install`
+5. Inicie a API com `npm run dev`
 
 ## Endpoints
 
